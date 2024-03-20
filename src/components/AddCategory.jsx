@@ -8,6 +8,7 @@ const onInputChange = ({target})=>{
        
         setinputValue(target.value)
 }
+
 const onSubmit = (event) => {
     event.preventDefault();
     if(inputValue.trim().length <=1) return;
@@ -26,4 +27,4 @@ const onSubmit = (event) => {
   )
 }
 
-export default AddCategory
+export default AddCategory;
